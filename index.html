@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tessy 🥰</title>
+  <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+<!-- Los dos textos -->
+<div id="container">
+	<span id="texto1"></span>
+	<span id="texto2"></span>
+</div>
+<!-- El filtro SVG utilizado para crear el efecto de fusión -->
+<svg id="filters">
+	<defs>
+		<filter id="threshold">
+			<feColorMatrix in="SourceGraphic"
+					type="matrix"
+					values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+		</filter>
+	</defs>
+</svg>
+<div class="para">De un <span class="anderson">Programador enamorado</span> para <span class="tessy">Tessy♥</span></div>
+</body>
+<script  src="main.js"></script>
+</html>
