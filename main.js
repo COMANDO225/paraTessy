@@ -7,23 +7,22 @@ const tessy = {
 // Strings
 const strings = [
 "",
-"Como",
-"me",
-"gustas",
-"preciosa",
-"hermosa",
-"cachetona",
-"TESSY",
-"me pones",
-"sonso...",
-"te quiero",
-"mucho <3"
+"Oye",
+"usted",
+"Gooo? ❤",
+"o no go? 💔",
+"o te botas?",
+"uu",
+"manyada :c",
+"pituca",
+"maldini",
+"xd",
 ];
 
 
 // Controla la velocidad de transformación.
 const timpoDeTransform = 1;
-const tiempoDeCooldown = 0.65;
+const tiempoDeCooldown = 0.8;
 
 let textIndex = strings.length - 1;
 let time = new Date();
